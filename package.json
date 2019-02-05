@@ -1,6 +1,6 @@
 {
   "name": "pri-migrate-one-to-two",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "pri-migrate-one-to-two": "built/index.js"
+    "pri-migrate-one-to-two": "dist/bin.js"
   },
   "bugs": {
     "url": "https://github.com/prijs/pri-migrate-1-to-2/issues"
