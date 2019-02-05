@@ -1,6 +1,6 @@
 {
   "name": "pri-migrate-one-to-two",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -28,14 +28,17 @@
   },
   "homepage": "https://github.com/prijs/pri-migrate-1-to-2#readme",
   "devDependencies": {
-    "pri": "^2.0.18"
+    "pri": "^2.0.19"
   },
   "pri": {
     "type": "component",
-    "version": "2.0.18"
+    "version": "2.0.19"
   },
   "types": "src/index.tsx",
   "dependencies": {
-    "@babel/runtime": "^7.0.0"
+    "@babel/runtime": "^7.0.0",
+    "fs-extra": "7.0.1",
+    "lodash": "4.17.11",
+    "typescript": "3.2.2"
   }
 }

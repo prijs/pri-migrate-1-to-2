@@ -1,5 +1,4 @@
 import * as fs from 'fs-extra';
-import * as semver from 'semver';
 import * as ts from 'typescript';
 
 export function execTsByPath(filePath: string) {
