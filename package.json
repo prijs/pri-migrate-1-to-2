@@ -1,0 +1,41 @@
+{
+  "name": "pri-migrate-1-to-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "pri test",
+    "start": "pri dev",
+    "docs": "pri docs",
+    "build": "pri build",
+    "bundle": "pri bundle",
+    "preview": "pri preview",
+    "analyse": "pri analyse",
+    "format": "tslint --fix './src/**/*.?(ts|tsx)' && prettier --write './src/**/*.?(ts|tsx)'",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prijs/pri-migrate-1-to-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "pri-migrate-1-to-2": "built/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/prijs/pri-migrate-1-to-2/issues"
+  },
+  "homepage": "https://github.com/prijs/pri-migrate-1-to-2#readme",
+  "devDependencies": {
+    "pri": "^2.0.18"
+  },
+  "pri": {
+    "type": "component",
+    "version": "2.0.17"
+  },
+  "types": "src/index.tsx",
+  "dependencies": {
+    "@babel/runtime": "^7.0.0"
+  }
+}
